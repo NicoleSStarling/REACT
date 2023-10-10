@@ -33,6 +33,11 @@ button{
   padding: 10px 20px;
   border-radius: 4px;
   font-weight: 700;
+  transition: all 300ms;
+}
+
+button:hover{
+  filter: brightness(75%);
 }
 
 a{
@@ -66,7 +71,7 @@ body .Toastify .Toastify__toast-container .Toastify__toast--error {
 `;
 
 export const Container = styled.section`
-max-width: 480px;
+max-width: 540px;
 background: #fff;
 margin: 30px auto;
 padding:30px;
