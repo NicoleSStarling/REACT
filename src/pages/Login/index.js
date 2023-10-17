@@ -10,8 +10,6 @@ import * as actions from '../../store/modules/auth/actions';
 
 import Loading from '../../components/Loading';
 
-//import Loading from '../../components/Loading';
-
 export default function Login(props) {
   const dispatch = useDispatch();
 
